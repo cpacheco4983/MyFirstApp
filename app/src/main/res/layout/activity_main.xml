@@ -20,7 +20,8 @@
         android:id="@+id/paragraph"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Trying to create develop branch from android studio. I think I have to change sometihng first though."
+        android:text="Trying to create develop branch from android studio.
+        I think I have to change sometihng first though."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
