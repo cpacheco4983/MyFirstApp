@@ -21,9 +21,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DisplayMessageActivity.class);
 
         // pass text input and start DisplayMessageActivity
-        EditText editText = (EditText)findViewById(R.id.editText);
+        EditText editText = findViewById(R.id.sendMessageInput);
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
+
+    public void goToPalindromeTester(View view) {
+        Intent intent = new Intent(this, PalindromeTesterActivity.class);
         startActivity(intent);
     }
 }

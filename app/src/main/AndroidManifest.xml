@@ -19,6 +19,8 @@
         <!-- tell actiity where to go so user can back -->
         <activity android:name=".DisplayMessageActivity"
                   android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".PalindromeTesterActivity"
+                  android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

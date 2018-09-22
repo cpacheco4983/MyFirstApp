@@ -2,4 +2,8 @@
     <string name="app_name">My First App</string>
     <string name="edit_message">Enter message</string>
     <string name="button_send">Send</string>
+    <string name="palindrome_tester">Palindrome Tester</string>
+    <string name="test_string_btn">Test String!</string>
+    <string name="stringIsPalindrome">The string is a Palindrome!</string>
+    <string name="stringIsNotPalindrome">The string is not a Palindrome!</string>
 </resources>
