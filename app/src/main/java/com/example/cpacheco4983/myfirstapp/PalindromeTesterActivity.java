@@ -25,9 +25,9 @@ public class PalindromeTesterActivity extends AppCompatActivity {
                 TextView isPalindromeResult = findViewById(R.id.isPalindromeResult);
 
                 if(isPalindrome(testString)) {
-                    isPalindromeResult.setText(R.string.stringIsPalindrome);
+                    isPalindromeResult.setText(R.string.string_is_palindrome);
                 } else {
-                    isPalindromeResult.setText(R.string.stringIsNotPalindrome);
+                    isPalindromeResult.setText(R.string.string_is_not_palindrome);
                 }
             }
         });
