@@ -2,12 +2,15 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/paliTesterParentView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
     tools:context=".PalindromeTesterActivity">
 
     <EditText
-        android:id="@+id/palindromeTestString"
+        android:id="@+id/palindromeTestInput"
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:layout_marginEnd="16dp"
@@ -32,7 +35,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/palindromeTestString" />
+        app:layout_constraintTop_toBottomOf="@+id/palindromeTestInput" />
 
     <TextView
         android:id="@+id/isPalindromeResult"

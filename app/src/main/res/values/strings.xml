@@ -4,8 +4,10 @@
     <string name="button_send">Send</string>
     <string name="palindrome_tester">Palindrome Tester</string>
     <string name="test_string_btn">Test String!</string>
-    <string name="string_is_palindrome">The string is a Palindrome!</string>
-    <string name="string_is_not_palindrome">The string is not a Palindrome!</string>
+    <string name="string_is_palindrome">The text is a Palindrome!</string>
+    <string name="string_is_not_palindrome">The text is not a Palindrome!</string>
     <string name="palindrome_tester_about">This palindrome tester checks to see if the alphanumeric
             characters in the entered text are a palindrome</string>
+    <string name="palindrome_invalid_input">There needs to be two or more alphanumeric characters in
+            your text!</string>
 </resources>
